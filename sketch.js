@@ -1,3 +1,28 @@
+var string = "vandana";
+console.log(string);
+
+var num = 20;
+console.log(num);
+
+var boolean = true;
+console.log(boolean);
+
+var object;
+console.log(object);
+
+object = null;
+console.log(object);
+
+var arr1 = [5,4,8,6];
+console.log(arr1[3]);
+
+var arr2 = ["dev",4,true,null,23];
+console.log(arr2);
+console.log(arr2.length);
+
+var arr3 = [  [4,5],  [true,false,43],  ["graph",9,undefined]  ];
+console.log(arr3[2][0]);
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
